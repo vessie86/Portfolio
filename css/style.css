@@ -1,0 +1,478 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+.main-container {
+	max-width: 940px;
+	margin: 0px auto;
+	overflow: hidden; 
+}
+
+
+header {
+	background-color: #2e2e2e;
+	height: 387px;
+	max-width: 1200px;
+	margin: 0px auto;
+	/*position: relative;*/
+}
+
+
+h1 {
+	color: #9b9b9b;
+	font-style: italic;
+	padding-top: 50px;
+	display: inline-block;
+
+}
+
+.social-icons {
+	float: right;
+	padding-top: 50px;
+	font-size: 17px;
+
+}
+
+.social-icons ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.social-icons ul li i {
+	color: #686868;
+	margin-left: 10px;
+
+
+}
+
+.social-icons i:hover {
+	
+
+	
+
+}
+
+
+.social-icons #twitter:hover{
+	color: #55acee;
+}
+
+.social-icons #facebook:hover{
+	color: #3b5998;
+}
+
+.social-icons #vimeo:hover{
+	color: #aad450;
+}
+
+.social-icons #behance:hover{
+	color: #1769ff;
+}
+
+.social-icons #dribbble:hover{
+	color: #9ba5a8;
+}
+
+
+/*
+header ul.social-icons {
+	display: block;
+}
+
+
+header ul.social-icons li {
+	list-style: none;
+	float: right;
+	margin-left: 10px;
+
+}
+	
+
+header ul.social-icons li i {
+	color: #686868;
+
+}
+
+*/
+
+
+header img {
+	/*padding-top: 50px;*/
+}
+
+
+.slider {
+	position: relative;
+	max-width: 940px;
+	margin: auto;
+}
+
+/* JS*/
+
+.showSlide {
+	display: none;
+}
+
+.showSlide img {
+	width: 100%;
+	padding-top: 60px;
+}
+
+
+
+a.arrow {
+	cursor: pointer;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 50%;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
+
+}
+
+.arrow.left {
+	left: 20px;
+
+}
+
+.arrow.right {
+	right: 20px;
+
+}
+
+.right {
+	width: 50%;
+	float: left;
+	padding-top: 15px;
+}
+
+
+.left {
+	width: 50%;
+	float: left;
+	padding-top: 15px;
+	
+}
+
+
+
+/* Fading animation */
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+
+
+
+.about-me {
+	background-color: #202020;
+	max-width: 1200px;
+	margin: 0px auto;
+
+}
+
+.about-me h2, h3 {
+	color: #9b9b9b;
+	text-align: center;
+
+}
+
+.about-me h2 {
+	padding-top: 200px;
+	padding-bottom: 20px;
+}
+.about-me h3 {
+	padding-bottom: 50px;
+	word-spacing: 5px;
+}
+
+
+
+/* Animated FadeIn section About me*/
+
+.animated {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    animation-duration: 9s;
+}
+
+   @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+         
+    @keyframes fadeIn {
+     0% {opacity: 0;}
+     100% {opacity: 1;}
+}
+         
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+
+
+.main-container .first {
+	width: 33%;
+	float: left;
+
+}
+
+
+.main-container .second {
+	width: 33%;
+	float: left;
+
+}
+
+.main-container .third {
+	width: 33%;
+	float: left;
+}
+
+.main-container p {
+	padding-right: 10px;
+	color: #9b9b9b;
+	padding-bottom: 75px;
+}
+
+.main-container h4 {
+	text-align: justify;
+	color: #9b9b9b;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+
+.main-container h4 i {
+	margin-right: 8px;
+
+
+}
+
+
+
+
+.my-work {
+	max-width: 1200px;
+	background-color: #2c2c2c;
+	height: 765px;
+	margin: 0px auto;
+
+
+}
+
+
+
+
+.left img {
+	padding-top: 10px;
+	padding-bottom: 6px;
+	padding-right: 10px;
+
+}
+
+
+.right img {
+	padding-top: 10px;
+	
+}
+
+
+
+.contacts {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding-top: 10px;
+	background-color: #202020;
+	height: 518px;
+
+
+
+}
+
+.contact-left {
+	width: 50%;
+	float: left;
+	position: relative;
+
+
+}
+
+.contact-left form {
+	margin-top: 5px;
+	
+
+}
+
+.contact-left form input, textarea {
+	width: 100%;
+	outline: none;
+	font-size: 15px;
+	margin-bottom: 15px;
+	padding-left: 35px;
+	background-color: #282828;
+	font-style: italic;
+	border: none;
+
+}
+
+
+
+.contact-left form input {
+	height: 45px;
+
+}
+
+.contact-left form input:hover {
+	opacity: 0.5;
+}
+
+
+
+input.btn {
+	padding: 15px 35px;
+	max-width: 30%;
+	color: #878787;
+	font-style: none; 
+	cursor: pointer;
+}
+
+
+.inner-icons-user::before {
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 15px;
+	color: #b9b9b9;
+	padding: 15px 10px;
+
+}
+
+.inner-icons-email::before {
+	content: "\f003";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 15px;
+	color: #b9b9b9;
+	padding: 15px 10px;
+
+}
+
+.inner-icons-globe::before {
+	content: "\f0ac";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 15px;
+	color: #b9b9b9;
+	padding: 15px 10px;
+
+}
+
+
+
+/*
+
+	icons color: #b9b9b9;
+
+*/
+
+
+
+
+
+.contact-right {
+	widt: 50%;
+	padding-top: 5px;
+
+}
+
+.contact-right img {
+	float: left;
+	padding: 0px 15px;
+}
+
+p a.color-twitter:hover{
+	color: #686868;
+}
+
+
+
+
+.my-contact {
+	padding-top: 10px;
+
+}
+
+.my-contact p {
+	display: inline;
+	padding-left: 15px;
+
+}
+
+.my-contact p a {
+	text-decoration: none;
+	color: #9b9b9b;
+}
+
+
+.my-contact p a:hover {
+	color: #000;
+}
+
+footer {
+	max-width: 1200px;
+	height: 110px;
+	background-color: #202020;
+	margin: 0px auto;
+}
+	
+	
+
+footer .main-container {
+	border-top: 1px solid #585858;
+}
+
+footer p {
+	padding-top: 30px;
+	float: left;
+}
+
+
+/*
+.footer-social-icons {
+	float: right;
+}
+
+
+.footer-social-icons ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-social-icons ul li i {
+	color: #686868;
+	padding-top: 30px;
+	margin-left: 10px;
+
+}
+
+*/
